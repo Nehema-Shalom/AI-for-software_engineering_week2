@@ -1,21 +1,23 @@
 AI for Quality Health: Heart Disease Prediction
+
 Course: Machine Learning / Artificial Intelligence
-Date: October 2025
-1. Introduction
+
+INTRODUCTION 
 
 This project focuses on UN Sustainable Development Goal (SDG) 3: Good Health and Well-being, specifically targeting the early detection and prevention of heart disease through Artificial Intelligence. Cardiovascular diseases remain one of the leading causes of death globally, and early prediction can significantly improve patient outcomes.
 
 Using supervised machine learning, this project develops a predictive model that identifies individuals at high risk of heart disease based on clinical and lifestyle data.
 
-2. Problem Statement
+PROBLEM STATEMENT
 
-Heart disease prediction using traditional methods often relies heavily on manual interpretation and delayed diagnosis. The challenge is to design an AI-driven solution capable of predicting heart disease risk accurately and efficiently from structured patient data, supporting medical professionals in making informed decisions.
+Heart disease prediction using traditional methods often relies heavily on manual interpretation and delayed diagnosis. 
+The challenge is to design an AI-driven solution capable of predicting heart disease risk accurately and efficiently from structured patient data, supporting medical professionals in making informed decisions.
 
-3. Objective
+OBJECTIVE
 
 To build and evaluate a supervised machine learning model that predicts whether an individual has heart disease based on health parameters such as age, cholesterol level, blood pressure, and other clinical indicators.
 
-4. Dataset
+DATASET
 
 The dataset used in this study is the Heart Disease dataset from the UCI Machine Learning Repository, which contains 303 patient records with the following attributes:
 
@@ -25,8 +27,8 @@ Categorical features: Sex, Chest Pain Type, Fasting Blood Sugar, Exercise-Induce
 
 Target variable: Presence of heart disease (1 = Disease, 0 = No Disease)
 
-5. Methodology
-5.1 Data Preprocessing
+5. METHODOLODY
+ - Data Preprocessing
 
 Missing Value Handling: Numerical data imputed using median values; categorical data filled with “missing” category.
 
@@ -34,24 +36,24 @@ Feature Scaling: StandardScaler applied to numerical columns.
 
 Encoding: OneHotEncoder used to convert categorical variables into numerical form.
 
-5.2 Model Design
+ -Model Design
 
 The model uses a Logistic Regression classifier within a preprocessing pipeline.
 The pipeline integrates:
 
-Data cleaning and transformation steps
+-Data cleaning and transformation steps
 
 Feature encoding and scaling
 
 Model training and prediction
 
-5.3 Training and Evaluation
+- Training and Evaluation
 
 The dataset is split into 80% training and 20% testing sets.
 
 The model performance is measured using Accuracy, Precision, Recall, F1-score, and AUC-ROC.
 
-6. Results
+6. RESULTS
 
 The Logistic Regression model achieved:
 
@@ -98,9 +100,9 @@ Pandas, NumPy
 
 Scikit-learn
 
-Matplotlib, Seaborn (for visualization)
+Matplotlib, Seaborn 
 
-Jupyter Notebook / Google Colab
+Google Colab
 
 Final Deliverable:
 A trained AI model capable of predicting heart disease risk using clinical data. This aligns AI innovation with the pursuit of global health equity, showcasing technology’s potential to advance sustainable development and human well-being.
